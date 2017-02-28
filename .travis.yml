@@ -5,4 +5,4 @@ rvm:
 services:
   - xvfb
 
-script: cucumber -p firefox
+script: bundle exec cucumber -p firefox
